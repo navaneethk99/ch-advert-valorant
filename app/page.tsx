@@ -40,7 +40,7 @@ const Page = () => {
                 key={i}
                 className="relative group cursor-pointer rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 shadow-md hover:shadow-xl w-full"
               >
-                <div className="w-full aspect-[4/2]">
+                <div className="w-full aspect-[5/2]">
                   <img
                     src={skin.src}
                     alt={skin.name}
