@@ -36,3 +36,22 @@ body {
 .custom-font {
   font-family: "MyCustomFont", Arial, sans-serif;
 }
+
+@font-face {
+  font-family: "ValorantFont";
+  src: url("/valorant/Valorant Font.ttf") format("opentype");
+  font-weight: 400; /* normal weight */
+  font-style: normal;
+  font-display: swap; /* improves loading */
+}
+
+.valo-font {
+  font-family: "ValorantFont", Arial, sans-serif;
+  color: black;
+  text-shadow: -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red;
+}
+
+.valo-font-clean {
+  font-family: "ValorantFont", Arial, sans-serif;
+  color: white;
+}

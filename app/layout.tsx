@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Free Fortnite Skins!",
+  title: "Free Valorant Skins!",
   description:
-    "Click here to get genuine Fortnite skins for absolutely FREE! (not clickbait)",
+    "Click here to get genuine Valorant skins for absolutely FREE! (not clickbait)",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/fortnite/Fortnite_F_lettermark_logo.png" />
+        <link rel="icon" href="/valorant/download.jpeg" />
       </head>
       <body>{children}</body>
     </html>
