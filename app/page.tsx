@@ -3,32 +3,32 @@ import React from "react";
 
 const Page = () => {
   const skins = [
-    { src: "/fortnite/bCZk2B.png", name: "Raven" },
-    { src: "/fortnite/bg.jpg", name: "Skull Trooper" },
+    { src: "/valorant/Luke2Fprime_vandal_rare_valorant_skins_rifles_1689950129015.avif", name: "Prime Vandal" },
+    { src: "/valorant/vandal-champions-2021-skin-valorant.avif", name: "Champions 2021 Vandal" },
     {
-      src: "/fortnite/renegade-raider-fortnite-with-pickaxe-b4fkaac8lpr4xbz1.jpg",
-      name: "Renegade Raider",
+      src: "/valorant/phantom-champions-2022-valorant.avif",
+      name: "Champoions 2022 Phantom",
     },
     {
-      src: "/fortnite/FNECO_32-00_VbuckStoreArtUpdate_2800_EGS_1200x1600_1200x1600-380718e8fb23306b6e8a801d27880104.jpeg",
-      name: "Get V-Bucks",
+      src: "/valorant/image_processing20240405-1-14gwclm.webp",
+      name: "Champions 2023 Vandal",
     },
   ];
 
   return (
     <div className="relative min-h-screen w-screen overflow-hidden">
       <img
-        src="/fortnite/fx88qqgw90d41.png"
+        src=" /valorant/dx7rtr7pfwq41.png"
         className="absolute inset-0 w-full h-full object-cover -z-10"
         alt="Background"
       />
 
       <div className="flex flex-col items-center justify-center min-h-screen px-4 py-8">
-        <h1 className="custom-font text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center mb-8 leading-tight">
-          click here to get free fortnite skins (not clickbait)
+        <h1 className="valo-font valo-text-shadow text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center mb-8 leading-tight">
+          Click here to get free Valorant Skins (Not Clickbait) !!!
         </h1>
 
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full max-w-[1500px]">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 w-full max-w-[1500px]">
           {skins.map((skin, i) => (
             <a
               href="https://gravitas.vit.ac.in/events/3df08aa2-22c9-42ff-8640-de501218780f"
@@ -40,7 +40,7 @@ const Page = () => {
                 key={i}
                 className="relative group cursor-pointer rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 shadow-md hover:shadow-xl w-full"
               >
-                <div className="w-full aspect-[3/4]">
+                <div className="w-full aspect-[5/2]">
                   <img
                     src={skin.src}
                     alt={skin.name}
@@ -49,7 +49,7 @@ const Page = () => {
                 </div>
 
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 flex items-center justify-center transition duration-300">
-                  <span className="text-white text-lg font-bold opacity-0 group-hover:opacity-100 transition duration-300">
+                  <span className="text-white valo-font-clean text-3xl font-bold opacity-0 group-hover:opacity-100 transition duration-300">
                     {skin.name}
                   </span>
                 </div>
